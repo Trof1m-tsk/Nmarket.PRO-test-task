@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dest/styles/style.min.css">
+    <title>NmarketPro test task</title>
+</head>
+<body class="main">
+    <h1 class="main__header">Тестовое задание Нмаркет.ПРО</h1>
+    <button class="main__btn yellow_btn">Купить квартиру</button>
+    <template id="popup">
+        <div class="popup">
+            <div class="popup__wrapper">
+                <button class="popup__close_btn"></button>
+                <div class="popup__descr">
+                    <img src="./dest/img/plan.png" alt="flat" class="popup__img">
+                    <h2 class="popup__title">2-к квартира</h2>
+                    <div class="popup__prop popup__floor">
+                        <p class="popup__prop_name">Этаж</p>
+                        <p class="popup__prop_value">3 из 19</p>
+                    </div>
+                    <div class="popup__prop popup__height">
+                        <p class="popup__prop_name">Высота потолков</p>
+                        <p class="popup__prop_value">3,2 м</p>
+                    </div>
+                    <div class="popup__prop popup__finishing">
+                        <p class="popup__prop_name">Отделка</p>
+                        <p class="popup__prop_value">Предчистовая</p>
+                    </div>
+                    <div class="popup__prop popup__square">
+                        <p class="popup__prop_name">Общая площадь</p>
+                        <p class="popup__prop_value">32,24 м<sup>2</sup></p>
+                    </div>
+                    <div class="popup__prop popup__live_square">
+                        <p class="popup__prop_name">Жилая площадь</p>
+                        <p class="popup__prop_value">22,24 м<sup>2</sup></p>
+                    </div>
+                    <div class="popup__prop popup__kitchen_square">
+                        <p class="popup__prop_name">Площадь кухни</p>
+                        <p class="popup__prop_value">14,24 м<sup>2</sup></p>
+                    </div>
+                    <div class="popup__descr_btns">
+                        <button class="popup__seen popup__descr_btn">Вы были на просмотре</button>
+                        <button class="popup__another_bank popup__descr_btn">Дом аккредитован другим банком</button>
+                    </div>
+                </div>
+                <div class="popup__buy">
+                    <div class="popup__buy_text">
+                        <p class="popup__your_price">
+                            Ваша цена по брони до <span>19 сентября</span>
+                        </p>
+                        <span class="popup__price">3 312 666 Р</span>
+                        <p class="popup__current_price">
+                            Текущая цена у застройщика<br> дороже на <span>324 825 Р</span>
+                        </p>
+                    </div>
+                    <button class="popup__buy_btn yellow_btn">Выбрать для покупки</button>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="./dest/js/script.min.js"></script>
+</body>
+</html>
